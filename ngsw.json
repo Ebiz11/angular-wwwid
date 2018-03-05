@@ -13,7 +13,7 @@
         "/inline.318b50c57b4eba3d437b.bundle.js",
         "/main.137db8091ab845a1334d.bundle.js",
         "/polyfills.1457c99db4b6dba06e8d.bundle.js",
-        "/styles.a35de3f57084adbf9ab0.bundle.css"
+        "/styles.e4be0642a4754c5932c2.bundle.css"
       ],
       "patterns": []
     },
@@ -60,10 +60,10 @@
     "/assets/launcher-icon-3x.jpg": "18b2a2e818c62258d20bb7cc30caf2b5d51215f3",
     "/polyfills.1457c99db4b6dba06e8d.bundle.js": "c7b365ef47db91a7d672881b233f740827cbc545",
     "/assets/launcher-icon-4x.jpg": "b367e10441311da6359581f6cf5d13092b53443b",
-    "/styles.a35de3f57084adbf9ab0.bundle.css": "7b3a341983fbae5bad54306c31a29f07388038ec",
+    "/styles.e4be0642a4754c5932c2.bundle.css": "57dc9a1ea07fcaffce2bbadcbdf12bf9c4043453",
     "/assets/ng.png": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "15027b3aee0c28e88f1da035b4e2154a16732512",
+    "/index.html": "2dab82ac626fab437e3f424a70bfd7a15b6820cf",
     "/manifest.json": "b0d813b9e5389ab7468e26fe0ed35b7639601009"
   }
 }
