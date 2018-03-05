@@ -9,8 +9,9 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
+        "/manifest.json",
         "/inline.318b50c57b4eba3d437b.bundle.js",
-        "/main.a5a09ced3169694d4acd.bundle.js",
+        "/main.137db8091ab845a1334d.bundle.js",
         "/polyfills.1457c99db4b6dba06e8d.bundle.js",
         "/styles.a35de3f57084adbf9ab0.bundle.css"
       ],
@@ -27,19 +28,42 @@
         "/assets/ng.png"
       ],
       "patterns": []
+    },
+    {
+      "name": "3party-assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/cdn-images\\.[^\\/]+[^\\/]+",
+        "https:\\/\\/res\\.cloudinary\\.com\\/.*"
+      ]
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "wwwid-rss-api",
+      "patterns": [
+        "https:\\/\\/api\\.rss2json\\.com\\.[^\\/]+[^\\/]+'"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 86400000,
+      "timeoutMs": 5000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
     "/assets/launcher-icon-2x.jpg": "dd84fb6809a162e8c631bcc03f5be7adc4e50bdc",
-    "/main.a5a09ced3169694d4acd.bundle.js": "402d592df1a8017c05b9f0adb0b08789fea9da0b",
+    "/main.137db8091ab845a1334d.bundle.js": "3ddd16cfba1e7aa6d70175417f0e0d45ab1d59af",
     "/assets/launcher-icon-3x.jpg": "18b2a2e818c62258d20bb7cc30caf2b5d51215f3",
     "/polyfills.1457c99db4b6dba06e8d.bundle.js": "c7b365ef47db91a7d672881b233f740827cbc545",
     "/assets/launcher-icon-4x.jpg": "b367e10441311da6359581f6cf5d13092b53443b",
     "/styles.a35de3f57084adbf9ab0.bundle.css": "7b3a341983fbae5bad54306c31a29f07388038ec",
     "/assets/ng.png": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "b460dc65aa2dfb0c3d2eb92ca9a68229b14a75f2"
+    "/index.html": "15027b3aee0c28e88f1da035b4e2154a16732512",
+    "/manifest.json": "b0d813b9e5389ab7468e26fe0ed35b7639601009"
   }
 }
